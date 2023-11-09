@@ -17,3 +17,12 @@ nav ul {
   padding: 0;
   display: inline-block;
 }
+
+nav ul li a {
+  color: #eeeeee;
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+}
