@@ -11,3 +11,9 @@ header {
   text-align: center;
   padding: 20px;
 }
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: inline-block;
+}
