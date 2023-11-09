@@ -26,3 +26,12 @@ nav ul li a {
 section {
   padding: 20px;
 }
+
+footer {
+  background-color: #053b50;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
