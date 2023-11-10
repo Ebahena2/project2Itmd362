@@ -1,4 +1,4 @@
-main {
+body {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -6,19 +6,31 @@ main {
   margin-top: 0;
 }
 h1 {
-  background-color: #EEEEEE
-  font-size: 45px;
+  background-color: #EEEEEE;
+  border: 10px #64CCC5;
+  font-size: 30px;
   padding-top: 20px;
-  padding-right: 80px;
-  padding-bottom: 30px;
-  padding-left: 80px;
+  padding-right: 60px;
+  padding-bottom: 20px;
+  padding-left: 60px;
 }
-.mydiv {
-  background-color: #176B87
-  border: 5px #64CCC5;
-  margin: auto;
-  padding: 15px;
+h2 {
+   background-color: #EEEEEE;
+   font-size: 40px;
 }
-  p 
+.nav {
+  background-color: #176B87;
+  overflow: hidden;
+  text-decoration: none; 
+  text-align: center;
+  padding: 10px;
+  font-size: 20px
+}
+.Div {
+  border: 10px #64CCC5;
+  background-color: #EEEEEE;
+  text-align: center;
+}
+
   
 
