@@ -1,1 +1,24 @@
+main {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: #053B50;
+  margin-top: 0;
+}
+h1 {
+  background-color: #EEEEEE
+  font-size: 45px;
+  padding-top: 20px;
+  padding-right: 80px;
+  padding-bottom: 30px;
+  padding-left: 80px;
+}
+.mydiv {
+  background-color: #176B87
+  border: 5px #64CCC5;
+  margin: auto;
+  padding: 15px;
+}
+  p 
+  
 
