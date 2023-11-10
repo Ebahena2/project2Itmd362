@@ -2,38 +2,47 @@
 <html lang="en" class="nojs">
 <head>
   <meta charset="UTF-8">
-  <title>Project 2</title>
+  <title>Apply</title>
   <meta name="viewport" content="width=device-width-scale=1.0,shrink-to-fit=no">
   <link rel ="stylesheet" media="screen" href="css/meyersreset-and-normalize-form.css">
   <link rel ="stylesheet" media="screen" href="css/screen.css">
   <script src="js/screen.js"></script>
 </head>
 <body>
-  <h1 id="title">Apply to the School</h1>
+  <header>
+    <h1>Apply to Schools</h1>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="page3.html">About the School</a></li>
+        <li><a href="index.html">Apply to Schools</a></li>
+      </ul>
+    </nav>
+  </header>
   <form method="get" action="#null" autocomplete="on">
       <div class="elementCss">
-        <label>Email <input type="text" name="email_field"></label>
+        <label class="labels">Email <input class = "textAreas" type="text" name="email_field"></label>
       </div>
       <div class="elementCss">
-        <label>First Name <input type="text" name="first_name_field"></label>
+        <label class="labels">First Name <input class = "textAreas" type="text" name="first_name_field"></label>
       </div>
       <div class="elementCss">
-        <label>Last Name <input type="text" name="last_name_field"></label>
+        <label class="labels">Last Name <input class = "textAreas" type="text" name="last_name_field"></label>
       </div>
       <div class="elementCss">
-        <label>Birthdate <input type="date" name="birthdate"></label>
+        <label class="labels">Birthdate <input class = "textAreas" type="date" name="birthdate"></label>
       </div>
       <div class="elementCss">
-        <label>Country <input type="text" name="country"></label>
+        <label class="labels">Country <input class = "textAreas" type="text" name="country"></label>
       </div>
       <div class="elementCss">
-        <label>City <input type="text" name="city"></label>
+        <label class="labels">City <input class = "textAreas" type="text" name="city"></label>
       </div>
       <div class="elementCss">
-        <label>State <input type="text" name="state"></label>
+        <label class="labels">State <input  class = "textAreas" type="text" name="state"></label>
       </div>
       <div class="elementCss">
-        <label>Postal Code<input type="text" name="postal_code"></label>
+        <label class="labels">Postal Code<input class = "textAreas" type="text" name="postal_code"></label>
       </div>
       <div class="radioName"> Program of Interest </div>
       <div class="radio-group1">
@@ -51,10 +60,10 @@
         <label>Not Sure Yet<input type="radio" name="term" value="NotSureYet"></label>
       </div>
       <div>
-        <label>Undergraduate Institution <input type="text" name="undergrad"></label>
+        <label class="labels">Undergraduate Institution <input class = "textAreas" type="text" name="undergrad"></label>
       </div>
       <div>
-        <label>Graduation Year <input type="text" name="gradyear"></label>
+        <label class="labels">Graduation Year <input class = "textAreas" type="text" name="gradyear"></label>
       </div>
       <div id="submitButton">
         <input type="submit" name="submit" id="submit" value="Register">
