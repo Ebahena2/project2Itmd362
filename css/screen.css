@@ -15,7 +15,6 @@ h1 {
 label{
   display: block;
   margin-bottom: 5px;
-  
   }
  
  
@@ -24,7 +23,14 @@ input, select, textarea {
   padding: 6px;
   margin-bottom:10px;
   box-sizing: border-box;
+  
 }
+
+.textAreas{
+  vertical-align: middle;
+}
+
+
 
 .radioName {
   text-decoration: underline;
@@ -41,4 +47,14 @@ input, select, textarea {
 .radio-group1 label{
   margin-right: 15px;
  
+}
+
+#submitButton{
+  margin: auto;
+  float: right;
+}
+
+#submit{
+  background-color: #64ccc5;
+  
 }
