@@ -18,19 +18,57 @@ h2 {
    background-color: #EEEEEE;
    font-size: 40px;
 }
+
+p {
+  font-size: 20px;
+}
+
 .nav {
   background-color: #176B87;
   overflow: hidden;
   text-decoration: none; 
   text-align: center;
   padding: 10px;
-  font-size: 20px
+  font-size: 40px;
 }
+
+
 .Div {
   border: 10px #64CCC5;
   background-color: #EEEEEE;
-  text-align: center;
+  font-size: 30px;
+  padding-top: 20px;
+  padding-right: 60px;
+  padding-bottom: 20px;
+  padding-left: 60px;
 }
 
+@media (max-width: 1000px) and (min-width: 601px) {
+  
+  #content {
+    width: 100%
+  }
+  
+#content {
+  
+  width: 100%;
+  padding: 10px 0;
+  margin: 0 auto;
+  border-style: hidden;
+  vertical-align: middle;
+}
+
+}
+
+
+
+@media (max-width: 600px){
+  
+  
+  #content {
+    width: 100%
+  }
+
+}
   
 
