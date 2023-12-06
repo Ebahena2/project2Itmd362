@@ -99,7 +99,7 @@ P{
      float: none;
      width: 100%;
   }
-  
+}
   
   #form-content{
     width: 50%;
@@ -126,6 +126,7 @@ P{
      display: flex;
      vertical-align: text-top;
      text-align: center;
+ }
  }
  
  #form-content{
