@@ -134,20 +134,8 @@ P{
 .radioName{
   font-size: 25px;
 }
-
 }
 
-
- @media screen and (min-width: 900px) {
-   .topnav a {
-      width: 100%;
-   }
-   .div {
-     display: flex;
-     vertical-align: text-top;
-     text-align: center;
- }
- }
  
  #form-content{
    width: 35%;
