@@ -73,6 +73,16 @@ input{
    height: 35px;
 }
 
+#content {
+  
+  width: 100%;
+  padding: 10px 0;
+  margin: 0 auto;
+  border-style: hidden;
+  vertical-align: middle;
+}
+
+
 
 
 @media (min-width: 600px) {
@@ -87,16 +97,7 @@ input{
 
   }
  
-#content {
-  
-  width: 100%;
-  padding: 10px 0;
-  margin: 0 auto;
-  border-style: hidden;
-  vertical-align: middle;
-}
 
-}
 
 
 
