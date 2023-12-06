@@ -28,53 +28,47 @@ nav ul li a {
   margin: 1em;
 }
 
-
-.labels{
-  margin-left: auto;
-  margin-right: auto;
+form{
   display: flex;
-  width: 300px;
-  text-align: center;
-  padding: 1em; 
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 30px;
+  width: 100%;
+  margin: 0 auto;
+}
 
+label{
+  display: block;
+  margin-bottom: 8px;
+  
+}
+
+input{
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  
 }
 
 .textAreas{
-  display: block;
-  width: 300px;
-  height: 25px;
-  margin-left: 20px;
-  vertical-align: middle;
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  
 }
 
-.radioName {
+.radioName{
+  font-size: 20px;
+  font-weight: bold;
   text-decoration: underline;
-  padding: 6px;
-  margin-bottom: 20px;
-}
-
-
-.radio-group1 input[type="radio"] {
-  margin-bottom: 20px;
-  margin-right: 5px;
-
-}
-
-.radio-group1 label{
-  margin-right: 15px;
-  vertical-align: middle;
-  margin-bottom: 20px;
- 
-}
-
-#submitButton{
-  margin: auto;
-  float: right;
-  padding: 10px;  
+  padding-bottom: 10px;
 }
 
 #submit{
   background-color: #64ccc5;
+
    width: 100px;
    height: 25px;
 }
@@ -87,12 +81,10 @@ nav ul li a {
 }
 
 
-@media (max-width: 1000px) and (min-width: 601px) {
-  
-  #content {
-    width: 100%
+
+
   }
-  
+ 
 #content {
   
   width: 100%;
@@ -114,3 +106,10 @@ nav ul li a {
   }
 
 }
+
+  P{
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    
+  }
