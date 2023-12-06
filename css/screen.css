@@ -74,7 +74,7 @@ input{
 }
 
 #form-content {
-  width: 50%;
+  width: 100%;
   padding: 10px 0;
   margin: 0 auto;
   border-style: hidden;
@@ -83,7 +83,7 @@ input{
 
 P{
   padding: 10px;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
     
 }
@@ -99,7 +99,25 @@ P{
      float: none;
      width: 100%;
   }
+  
+  
+  #form-content{
+    width: 50%;
+    
+  }
+  
+  P{
+
+  font-size: 25px;
 }
+
+.radioName{
+  font-size: 25px;
+}
+
+}
+
+
  @media screen and (min-width: 900px) {
    .topnav a {
       width: 100%;
@@ -109,6 +127,20 @@ P{
      vertical-align: text-top;
      text-align: center;
  }
+ 
+ #form-content{
+   width: 35%;
+   
+ }
+ 
+ P{
+  font-size: 35px;    
+}
+
+.radioName{
+  font-size: 30px;
+
+}
 }
  
 
