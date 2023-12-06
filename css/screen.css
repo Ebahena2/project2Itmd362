@@ -96,8 +96,8 @@ P{
     flex-direction: column;
     padding-top: 5px;
     padding-bottom: 5px;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
    }
  .topnav a {
     float: none;
@@ -110,14 +110,14 @@ P{
       width: 100%;
    }
    div.a {
-     line-height: 1.8;
-     font-size: 18px;
+     line-height: 1.5;
+     font-size: 19px;
      display: flex;
      flex-direction: column;
-     padding-top: 20px;
-     padding-bottom: 20px;
-     padding-right: 60px;
-     padding-left: 60px;
+     padding-top: 15px;
+     padding-bottom: 15px;
+     padding-right: 100px;
+     padding-left: 100px;
     }
 }
   
