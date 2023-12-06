@@ -73,6 +73,23 @@ input{
    height: 35px;
 }
 
+#form-content {
+  width: 50%;
+  padding: 10px 0;
+  margin: 0 auto;
+  border-style: hidden;
+  vertical-align: middle;
+}
+
+P{
+  padding: 10px;
+  font-size: 25px;
+  font-weight: bold;
+    
+}
+
+
+
 @media (min-width: 600px) {
    .div {
      display: flex;
@@ -94,21 +111,29 @@ input{
  }
 }
  
-#content {
-  
-  width: 100%;
-  padding: 10px 0;
-  margin: 0 auto;
-  border-style: hidden;
-  vertical-align: middle;
-}
-
-}
 
 
-  P{
-    padding: 10px;
-    font-size: 25px;
-    font-weight: bold;
-    
+
+
+
+
+
+@media (min-width: 600px) {
+   div {
+     display: flex;
+     flex-direction: column;
   }
+}
+
+
+@media (max-width: 600px){
+  
+  
+  #content {
+    width: 100%
+  }
+
+}
+
+
+
