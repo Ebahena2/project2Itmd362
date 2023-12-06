@@ -88,21 +88,37 @@ P{
     
 }
 
-div.a {
-    line-height: 1.8;
-    font-size: 16px;
-}
-
-
 @media (min-width: 600px) {
-   .div {
+  div.a {
+     line-height: 1.2;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+   }
+ .topnav a {
+    float: none;
+    width: 100%;
+    }
+  }
+
+@media screen and (min-width: 800px) {
+   .topnav a {
+      width: 100%;
+   }
+   div.a {
+     line-height: 1.8;
+     font-size: 18px;
      display: flex;
      flex-direction: column;
-   }
-   .topnav a {
-     float: none;
-     width: 100%;
-  }
+     padding-top: 20px;
+     padding-bottom: 20px;
+     padding-right: 60px;
+     padding-left: 60px;
+    }
 }
   
   #form-content{
