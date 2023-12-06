@@ -82,6 +82,13 @@ input{
   vertical-align: middle;
 }
 
+P{
+  padding: 10px;
+  font-size: 25px;
+  font-weight: bold;
+    
+}
+
 
 
 
@@ -102,9 +109,4 @@ input{
 
 }
 
-  P{
-    padding: 10px;
-    font-size: 25px;
-    font-weight: bold;
-    
-  }
+
