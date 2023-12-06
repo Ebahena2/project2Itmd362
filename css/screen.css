@@ -69,8 +69,44 @@ input{
 #submit{
   background-color: #64ccc5;
 
+   width: 100px;
+   height: 25px;
+}
+
+@media (min-width: 600px) {
+   div {
+     display: flex;
+     flex-direction: column;
   }
+}
+
+
+
+
+  }
+ 
+#content {
   
+  width: 100%;
+  padding: 10px 0;
+  margin: 0 auto;
+  border-style: hidden;
+  vertical-align: middle;
+}
+
+}
+
+
+
+@media (max-width: 600px){
+  
+  
+  #content {
+    width: 100%
+  }
+
+}
+
   P{
     padding: 10px;
     font-size: 25px;
