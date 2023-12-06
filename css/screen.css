@@ -73,19 +73,26 @@ input{
    height: 35px;
 }
 
-
-
 @media (min-width: 600px) {
-   div {
+   .div {
      display: flex;
      flex-direction: column;
+   }
+   .topnav a {
+     float: none;
+     width: 100%;
   }
 }
-
-
-
-
-  }
+ @media screen and (min-width: 900px) {
+   .topnav a {
+      width: 100%;
+   }
+   .div {
+     display: flex;
+     vertical-align: text-top;
+     text-align: center;
+ }
+}
  
 #content {
   
@@ -98,16 +105,6 @@ input{
 
 }
 
-
-
-@media (max-width: 600px){
-  
-  
-  #content {
-    width: 100%
-  }
-
-}
 
   P{
     padding: 10px;
