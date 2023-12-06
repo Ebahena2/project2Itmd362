@@ -28,6 +28,19 @@ nav ul li a {
   margin: 1em;
 }
 
+label{
+  display: block;
+  margin-bottom: 8px;
+  width: 100%;
+}
+
+input{
+  padding: 8px;
+  margin-bottom: 12px;
+  display: block;
+  width: 100%;
+  
+}
 
 .labels{
   margin-left: auto;
