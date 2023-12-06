@@ -73,9 +73,9 @@ input{
    height: 35px;
 }
 
-#content {
+#form-content {
   
-  width: 100%;
+  width: 50%;
   padding: 10px 0;
   margin: 0 auto;
   border-style: hidden;
@@ -91,14 +91,6 @@ input{
      flex-direction: column;
   }
 }
-
-
-
-
-  }
- 
-
-
 
 
 @media (max-width: 600px){
