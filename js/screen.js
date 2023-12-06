@@ -13,3 +13,8 @@ jQuery(function($){
   
   });
   });
+  
+function showAlert(){
+  alert("Submitted!");
+  
+}
