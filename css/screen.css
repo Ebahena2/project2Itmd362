@@ -1,11 +1,219 @@
-body {
- font-family: "Poppins", sans-serif;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+
+  background-color: #053b50;
+  padding: 1.5em 0em;
+
+
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 0.4em;
+  background-color: #053b50;
+
+}
+
+nav ul li {
+  margin: 0.4em 1em;
+  list-style: none;
+  padding: 0.5em;
+  background-color: #053b50;
+
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: medium;
+  font-weight: 700;
+  background-color: #053b50;
+  color: white;
+
+
+}
+
+nav ul li a:hover {
+
+  transform: scale(0.4);
+}
+
+nav h1 {
+  font-size: 2.4em;
+  margin: 0.7em;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 1em;
+  background-color: #053b50;
+  color: white;
+
+}
+
+.p1 {
+
+  margin-top: 1em;
+  margin-left: 1em;
+  display: flex;
+  justify-content: center;
+  padding: 0.8em;
+}
+
+h2 {
+  font-size: 2em;
+  margin-left: 1em;
+
+}
+
+p {
+  max-width: 90%;
+  margin-left: 1em;
+  display: flex;
+  justify-content: center;
+  padding: 0.8em;
+}
+
+h3 {
+  margin-left: 1em;
+  padding: 0.8em;
+}
+
+#programs ul {
+  margin-left: 2em;
+  padding: 0.8em;
+}
+
+h3 {
+  margin: 1em;
+}
+
+
+/* CONTACT  */
+footer {
+  background: #053b50;
+  color: ghostwhite;
+  text-align: center;
+  font-size: medium;
+  padding: 2em;
+  margin-top: 2em;
+  padding-bottom: 10px;
+
+}
+
+h5 {
+  margin: 1em;
+  padding: 0.8em;
+}
+
+
+
+
+/* CONTACT US  */
+h1 {
+  text-align: center;
+  margin: 1em;
+}
+
+form {
+  margin-top: 0.7em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.name input,
+.phone input,
+.mail input {
+  width: 60%;
+  height: 40px;
+  padding: 1em;
+  border: 0.5px solid black;
+  outline: none;
+
+
+
+
+}
+
+.name,
+.phone,
+.mail {
+  margin: 0.8em;
+}
+
+
+
+
+
+
+
+
+
+.radioName {
+  margin-top: 2em;
+}
+
+#address {
+  align-items: center;
+  align-items: center;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+
+
+  margin-top: 1.3em;
+  padding: 0.7em;
+}
+
+#address span {
+  margin: 0.2em;
+}
+
+
+
+
+
+
+
+/* Merged CSS */
+
+
+
+#body {
+  font-family: "Poppins", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+  background-color: #eeeeee;
+  /* margin-top: 10px; */
+}
+
+.body {
+  font-family: "Poppins", sans-serif;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   background-color: #eeeeee;
   margin-top: 0;
+
+  display: flex;
+  flex-direction: column;
 }
+
 
 header {
   background-color: #053b50;
@@ -20,6 +228,7 @@ nav ul {
   display: flex;
   margin-left: auto;
   margin-right: auto;
+  justify-content: center;
 }
 
 nav ul li a {
@@ -28,124 +237,155 @@ nav ul li a {
   margin: 1em;
 }
 
-form{
+form {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding: 30px;
-  width: 100%;
+
   margin: 0 auto;
 }
 
-label{
-  display: block;
-  margin-bottom: 8px;
-  
+label {
+  font-weight: 600;
 }
 
-input{
-  width: 100%;
+.labels {
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.textAreas {
+  width: 59vw;
   padding: 8px;
   margin-bottom: 16px;
   box-sizing: border-box;
-  
+
 }
 
-.textAreas{
-  width: 100%;
-  padding: 8px;
-  margin-bottom: 16px;
-  box-sizing: border-box;
-  
-}
-
-.radioName{
+.radioName {
   font-size: 20px;
   font-weight: bold;
   text-decoration: underline;
   padding-bottom: 10px;
 }
 
-#submit{
+#submit {
   background-color: #64ccc5;
-
-   width: 100%;
-   height: 35px;
-}
-
-#form-content {
+  outline: none;
   width: 100%;
-  padding: 10px 0;
-  margin: 0 auto;
-  border-style: hidden;
-  vertical-align: middle;
+  height: 40px;
+  margin: 1em;
 }
 
-P{
-  padding: 10px;
-  font-size: 20px;
-  font-weight: bold;
-    
+#submit:hover {
+  transition: 0.4s;
+  background: black;
+  color: white;
+
 }
 
+
+
+
+.radio-group1 {
+  margin: 1.2em;
+  display: flex;
+  flex-direction: column;
+
+
+  align-items: flex-start
+}
+
+button {
+  height: 40px;
+  width: 120px;
+  outline: none;
+
+}
+
+button a {
+  text-decoration: none;
+  width: 100%;
+  color: black;
+  height: 100%;
+  font-weight: 600;
+  background: transparent;
+
+}
+
+button:hover {
+  transition: 0.5s;
+  background: rgb(212, 188, 188);
+  outline: none;
+
+}
+
+#submitButton {
+  display: flex;
+  max-width: 100vw;
+  justify-content: center;
+}
 
 
 @media (min-width: 600px) {
-   .div {
-     display: flex;
-     flex-direction: column;
-   }
-   .topnav a {
-     float: none;
-     width: 100%;
+  div.a {
+    line-height: 1.2;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .topnav a {
+    float: none;
+    width: 100%;
   }
 }
-  
-  #form-content{
-    width: 50%;
-    
-  }
-  
-  P{
 
+@media screen and (min-width: 800px) {
+  .topnav a {
+    width: 100%;
+  }
+
+  div.a {
+    line-height: 1.8;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+}
+
+#form-content {
+  width: 50%;
+
+}
+
+
+
+.radioName {
   font-size: 25px;
 }
 
-.radioName{
-  font-size: 25px;
-}
+
+
+#form-content {
+  width: 35%;
 
 }
 
 
- @media screen and (min-width: 900px) {
-   .topnav a {
-      width: 100%;
-   }
-   .div {
-     display: flex;
-     vertical-align: text-top;
-     text-align: center;
- }
- }
- 
- #form-content{
-   width: 35%;
-   
- }
- 
- P{
-  font-size: 35px;    
-}
 
-.radioName{
+.radioName {
   font-size: 30px;
 
 }
-}
- 
-
-
-
-
-
