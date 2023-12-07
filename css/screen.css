@@ -85,8 +85,14 @@ P{
   padding: 10px;
   font-size: 20px;
   font-weight: bold;
-    
 }
+
+h1{
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+  
 
 @media (min-width: 600px) {
   div.a {
