@@ -306,6 +306,49 @@ button:hover {
   .topnav a {
     float: none;
     width: 100%;
+
+P{
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h1{
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+  
+
+@media (min-width: 600px) {
+  div.a {
+     line-height: 1.2;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+   }
+  }
+
+@media screen and (min-width: 800px) {
+   div.a {
+     line-height: 1.5;
+     font-size: 19px;
+     display: flex;
+     flex-direction: column;
+     padding-top: 15px;
+     padding-bottom: 15px;
+     padding-right: 100px;
+     padding-left: 100px;
+    }
+}
+  
+  #form-content{
+    width: 50%;
+
   }
   
   #form-content {
@@ -317,8 +360,22 @@ button:hover {
   #indexP{
   font-size: 20px;
 }
+
 }
 
+
+
+
+
+ 
+ #form-content{
+   width: 35%;
+   
+ }
+ 
+ P{
+  font-size: 35px;    
+}
 
 
 @media screen and (min-width: 800px) {
