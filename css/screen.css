@@ -99,16 +99,9 @@ P{
     padding-right: 30px;
     padding-left: 30px;
    }
- .topnav a {
-    float: none;
-    width: 100%;
-    }
   }
 
 @media screen and (min-width: 800px) {
-   .topnav a {
-      width: 100%;
-   }
    div.a {
      line-height: 1.5;
      font-size: 19px;
